@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: solid 2px red;
 }
 
 .App-logo {
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.head{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.head input{
+  width: 420px;
+  height: 40px;
+}
+.head  button{
+  width:150px;
+  height: 50px;
+}
+.navbar ul{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+background-color: black;
+height: 50px;
+align-items: center;
+
+}
+.navbar ul  a{
+color: aliceblue;
+text-decoration: none;
 }
